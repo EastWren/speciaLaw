@@ -6,10 +6,10 @@ import config from "../../data/SiteConfig";
 
 class Index extends React.Component {
   render() {
-    /*const postEdges = this.props.data.allMarkdownRemark.edges;*/
+    const postEdges = this.props.data.allMarkdownRemark.edges;
     return (
       <div className="index-container">
-        Hello
+        Hello poophead
       </div>
     );
   }
@@ -18,7 +18,7 @@ class Index extends React.Component {
 export default Index;
 
 /* eslint no-undef: "off"*/
-/*export const pageQuery = graphql`
+export const pageQuery = graphql`
   query IndexQuery {
     allMarkdownRemark(
       limit: 2000
@@ -42,4 +42,3 @@ export default Index;
     }
   }
 `;
-*/
